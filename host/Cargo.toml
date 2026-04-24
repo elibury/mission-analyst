@@ -1,0 +1,13 @@
+[package]
+name = "mission-analyst"
+version = "0.1.0"
+edition = "2021"
+description = "Host CLI with embedded WASM skill for space mission log analysis"
+
+[[bin]]
+name = "mission-analyst"
+path = "src/main.rs"
+
+[dependencies]
+wasmtime = "24"
+mission-core = { path = "../core" }

@@ -1,0 +1,5 @@
+[package]
+name = "mission-core"
+version = "0.1.0"
+edition = "2021"
+description = "Shared parsing logic between host and WASM skill"
